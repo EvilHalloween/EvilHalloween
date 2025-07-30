@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
-
-/* === BASISSTIL === */
 body {
     background-color: rgb(13, 13, 13);
     background-image: url(images/Logo.png);
@@ -36,8 +34,6 @@ p, .link {
     margin-left: 1%;
     font-size: 1.5rem;
 }
-
-/* === MENU === */
 .menu {
     position: fixed;
     top: 0;
@@ -65,7 +61,6 @@ p, .link {
     border-radius: 5px;
 }
 
-/* === COUNTDOWN === */
 #countdown {
     margin: 2% 1%;
     font-size: 2rem;
@@ -77,7 +72,6 @@ p, .link {
     box-shadow: 0 0 20px #ff7518;
 }
 
-/* === MAP + FB VIDEO === */
 .map-container iframe {
     margin-left: 1%;
     width: 40ex;
@@ -96,7 +90,6 @@ p, .link {
     gap: 1%;
 }
 
-/* === GALLERI === */
 .billeder {
     display: flex;
     flex-wrap: wrap;
@@ -112,7 +105,6 @@ p, .link {
     border: none;
 }
 
-/* === FORMULAR === */
 form {
     background-color: black;
     padding: 40px;
@@ -149,7 +141,6 @@ button:hover {
     background-color: rgb(44, 2, 2);
 }
 
-/* === FOOTER === */
 .footer {
     background-color: #333;
     color: white;
@@ -159,9 +150,6 @@ button:hover {
     position: relative;
 }
 
-/* === BREAKPOINTS === */
-
-/* 📱 MOBIL – op til 600px */
 @media (max-width: 600px) {
     body {
         background-size: 80%;
@@ -221,7 +209,6 @@ button:hover {
     }
 }
 
-/* 📲 TABLET – 601px til 1024px */
 @media (min-width: 601px) and (max-width: 1024px) {
     body {
         background-size: 60%;
@@ -262,7 +249,6 @@ button:hover {
     }
 }
 
-/* 💻 DESKTOP – over 1024px */
 @media (min-width: 1025px) {
     body {
         background-size: 50%;
